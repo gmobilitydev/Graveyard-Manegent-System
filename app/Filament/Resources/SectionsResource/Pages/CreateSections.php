@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Filament\Resources\SectionsResource\Pages;
+
+use App\Filament\Resources\SectionsResource;
+use Filament\Pages\Actions;
+use Filament\Resources\Pages\CreateRecord;
+
+class CreateSections extends CreateRecord
+{
+    protected static string $resource = SectionsResource::class;
+    protected function getRedirectURL(): string{
+        return $this->getResource()::getUrl('index');
+    }
+}

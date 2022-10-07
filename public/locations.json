@@ -1,0 +1,135 @@
+{
+    "regions":[
+        {
+           "name" : "Erongo",
+            "abbr": "ERO",
+            "cities": ["Walvis Bay", "Swakopmund", "Henties Bay", "Omaruru"],
+            "towns": ["Arandis", "Karibib", "Usakos"],
+            "plots": [],
+            "farms": [],
+            "villages": [],
+            "settlements": ["Okombahe", "Uis"]
+        },
+        {
+        "name": "Hardap",
+            "abbr": "HAR",
+            "cities": [],
+            "towns": ["Aranos", "Rehoboth", "Mariental"],
+            "plots": [],
+            "farms": [],
+            "villages": ["Gibeon", "Gochas", "Kalkrand", "Maltahöhe", "Stampriet"],
+            "settlements": ["Hoachanas", "Rietoog", "Schlip"]
+        },{
+       "name" : "||Karas",
+            "abbr":"KAR",
+            "cities": ["Keetmanshoop", "Oranjemund"],
+            "towns": ["Karasburg", "Lüderitz" ],
+            "plots": [],
+            "farms": [],
+            "villages": ["Aroab", "Aus", "Berseba", "Bethanie", "Koës", "Tses"],
+            "settlements": ["Ariamsvlei","Aussenkehr", "Grünau", "Noordoewer", "Rosh Pinah", "Warmbad" ]
+        },{  
+        "name" : "Kavango West",
+            "abbr":"KVW",
+            "cities": [],
+            "towns": ["Nkurenkuru"],
+            "plots": [],
+            "farms": [],
+            "villages": [],
+            "settlements": []
+        }, {
+        "name" : "Kavango East",
+            "abbr":"KVE",
+            "cities": [],
+            "towns": ["Rundu"],
+            "plots": [],
+            "farms": [], 
+            "villages": ["Divundu"],
+            "settlements": []
+        }, {
+        "name": "Khomas",
+            "abbr":"KHO",
+            "cities": ["Windhoek"],
+            "towns": [],
+            "plots": [],
+            "farms": [],
+            "villages": [],
+            "settlements": ["Groot Aub"]
+        },{  
+        "name": "Kunene",
+            "abbr":"KUN",
+            "cities": ["Outjo","Opuwo"],
+            "towns": ["Khorixas"],
+            "plots": [],
+            "farms": [],
+            "villages": ["Kamanjab"],
+            "settlements": ["Fransfontein", "Okangwati", "Sesfontein" ]
+        }, { 
+        "name" : "Ohangwena",
+            "abbr":"OHA",
+            "cities": [],
+            "towns": ["Eenhana", "Helao Ndifidi"],
+            "plots": [],
+            "farms": [],
+            "villages": ["Okongo"],
+            "settlements": ["Omungwelume", "Ongenga"]
+        },{  
+        "name" : "Omaheke",
+            "abbr":"OMA",
+            "cities": ["Gobabis"],
+            "towns": [],
+            "plots": [],
+            "farms": [],
+            "villages": ["Leonardville", "Witvlei"],
+            "settlements": ["Omawewozonyanda", "Omitara - Otjivero", "Otjinene"]
+        }, { 
+        "name" : "Omusati",
+            "abbr":"OMU",
+            "cities": [],
+            "towns": ["Okahao", "Oshikuku", "Outapi", "Ruacana"],
+            "plots": [],
+            "farms": [],
+            "villages": ["Tsandi"],
+            "settlements": ["Ogongo", "Okalongo", "Onesi"]
+        },{  
+        "name" : "Oshana",
+            "abbr":"OSA",
+            "cities": ["Oshakati"],
+            "towns": ["Ondangwa", "Ongwediva"],
+            "plots": [],
+            "farms": [],
+            "villages": [],
+            "settlements": ["Ehangano", "Ondangwa East"]
+        },{  
+        "name" : "Oshikoto",
+            "abbr":"OSH",
+            "cities": [],
+            "towns": ["Omuthiya", "Tsumeb"],
+            "plots": [],
+            "farms": [],
+            "villages": [],
+            "settlements": ["Ondangwa East", "Oshivelo"]
+        },{ 
+        "name" : "Otjozondjupa",
+            "abbr":"OTJ",
+            "cities": [],
+            "towns": ["Grootfontein", "Okahandja", "Okakarara", "Otavi", "Otjiwarongo"],
+            "plots": [],
+            "farms": [],
+            "villages": [],
+            "settlements": ["Berg Aukas","Kalkfeld", "Okamatapati", "Okandjatu","Osire", "Otjituuo", "Tsumkwe"]
+        },{ 
+        "name" : "Zambezi",
+            "abbr":"ZAM",
+            "cities": [],
+            "towns": ["Katima Mulilo"],
+            "plots": [],
+            "farms": [],
+            "villages": ["Bukalo"],
+            "settlements": ["Linyanti"]
+        }
+    ]
+    
+    
+}
+
