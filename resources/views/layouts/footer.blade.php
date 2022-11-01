@@ -1,4 +1,4 @@
-<footer  x-data="{ open: false }" class="p-4 bg-white  shadow md:px-6 md:py-8 ">
+<footer  x-data="{ open: false }" class="p-4 bg-white  shadow md:px-6 md:py-8">
     <div class="sm:flex sm:items-center sm:justify-between">
         <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0">
 

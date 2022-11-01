@@ -37,24 +37,19 @@
                         </div>
                         {{-- Normal Navbar --}}
                             <div class="hidden lg:flex shrink-0 flex items-center">
-                                <a href="{{ route('search') }}">
+                                <a href="{{ url('search') }}">
                                     <x-application-logo class="block h-10 w-auto fill-current text-gray-600" />
                                 </a>
                             </div>
+
+                            <!-- Pushes nav links to the right -->
                             <div class="mx-auto">
-                                {{-- <ul class="hidden lg:flex text-base text-gray-600 space-x-4 pt-4 md:pt-0"> --}}
-                                    {{-- <li class="mb-1"><a class="text-red-900 hover:text-amber-300" href="#">HOME</a></li> --}}
-                                    {{-- <li class="mb-1"><a class="text-gray-900 hover:text-amber-300" href="{{ route('search') }}">SEARCH</a></li> --}}
-                                    {{-- <li class="mb-1 ml-auto"><a class="text-gray-900 hover:text-amber-300" href="{{ url('login') }}">LOGIN</a></li> --}}
-                                    
-                                {{-- </ul>  --}}
                             </div>
 
                             <!-- Normal navigation with a search box -->
                             <div class="hidden lg:flex shrink-0 flex items-center">
                                 <ul class="hidden lg:flex text-base text-gray-600 space-x-4 pt-4 md:pt-0">
-                                    {{-- <li class="mb-1"><a class="text-red-900 hover:text-amber-300" href="#">HOME</a></li> --}}
-                                    <li class="mb-1"><a class="text-gray-900 hover:text-amber-300" href="{{ route('search') }}">SEARCH</a></li>
+                                    <li class="mb-1"><a class="text-gray-900 hover:text-amber-300" href="{{ url('search') }}">SEARCH</a></li>
                                     <li class="mb-1 ml-auto"><a class="text-gray-900 hover:text-amber-300" href="{{ url('login') }}">LOGIN</a></li>
                                     <li class="mb-1 ml-auto"><a class="text-gray-900 hover:text-amber-300" href="{{ url('register') }}">REGISTER</a></li>
                                 </ul>

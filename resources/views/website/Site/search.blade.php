@@ -4,7 +4,7 @@
 
 <div>
     <div class="my-auto">
-        <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center font-bold">Search for a </h1>
+        <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center font-bold">Search for a  </h1>
 
         <div>
             <section class="pt-5">
@@ -15,6 +15,7 @@
                     inactiveClasses: 'text-md px-2 py-8 xs:py-4 md:p-4 border-1 border-transparent hover:text-amber-500',
                 }" class="w-10/12 mb-14 mx-auto items-center">
 
+                <!-- ignore the comment below -->
                     {{-- <div class="flex text-sm font-medium  border-gray-100">
                         <p class="text-md md:text-lg py-4 md:py-2 px-2 -mb-px">Search for:</p>
                         <a href="javascript:void(0)" @click="openTab = 1"
@@ -53,36 +54,7 @@
                                         </a>
                                     </button>
                                 </div>
-
-                                <!-- <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-
-                                    <select name="region" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-2 sm:pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                    placeholder="--All Regions--" >
-                                        <option value="">--All Regions--</option>
-                                        <option value="">Khomas</option>
-                                        <option value="">Hardap</option>
-                                        <option value="">//Karas</option>
-                                        <option value="">Omusati</option>
-                                    </select>
-
-                                    <select name="location" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-2 sm:pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                    placeholder="--All Locations--" >
-                                        <option value="">--All Locations--</option>
-                                        <option value="">Windhoek</option>
-                                        <option value="">Okahandja</option>
-                                    </select>
-
-                                    <select name="graveyard" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-2 sm:pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                    placeholder="--All Graveyards--" >
-                                        <option value="">--All Graveyards--</option>
-                                        <option value="">Pioneerspark Cemetary</option>
-                                        <option value="">Hochland Cemetary</option>
-                                    </select>
-
-                                </div> -->
                             </form>
-
-
                         </div>
 
 
