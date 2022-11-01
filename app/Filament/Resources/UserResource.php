@@ -23,7 +23,19 @@ class UserResource extends Resource
     {
         return $form
             ->schema([
-                //
+             //Getting user input from the form]
+         Card::make()->schema([
+             $username = TextInput::make('name')
+             ->reactive()
+             ->required(),
+             $useremail = TextInput::make('email')
+             ->reactive()
+             ->required(),
+             $userpassword = TextInput::make('password')
+             ->reactive()
+             ->required(),
+             ]),
+
             ]);
     }
 
@@ -31,7 +43,10 @@ class UserResource extends Resource
     {
         return $table
             ->columns([
-                //
+                 //Fetching data and displaying it 
+ 
+                 TextColumn::make('name')-> Label('Name'),
+                 TextColumn::make('email')->Label('Email')
             ])
             ->filters([
                 //

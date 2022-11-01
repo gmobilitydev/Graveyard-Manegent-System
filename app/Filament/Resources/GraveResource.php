@@ -40,17 +40,20 @@ class GraveResource extends Resource
     {
         return $form
             ->schema([
-                //
+                //Getting user input from the form
                 Select::make('grave_type_id')
-                    ->relationship('grave', 'name'),
+                    ->relationship('grave_type', 'name'),
                 Select::make('section_id')
                     ->relationship('section', 'name'),
                 Card::make()->schema([
                     $graveNumber = TextInput::make('grave_number')
                     ->reactive()
                     ->required(),
+                    $graveKey = TextInput::make('grave_key')
+                    ->reactive()
+                    ->required(),
                 Toggle::make('grave_status'),
-                ])
+                    ]),
 
 
             ]);
@@ -61,8 +64,8 @@ class GraveResource extends Resource
     {
         return $table
             ->columns([
-                //
-                TextColumn::make('grave_key')->sortable(),
+                //Fetching data and displaying it 
+                TextColumn::make('grave_key.name')->sortable(),
                 TextColumn::make('grave_type.name'),
 
                 TextColumn::make('section.name'),

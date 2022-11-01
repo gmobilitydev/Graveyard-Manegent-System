@@ -67,12 +67,12 @@ npm install && npm run dev
 ```
 Create a admin user with the following command
 ```sh
-./vendor/bin/sail artisan make:filament-user
+php artisan make:filament-user
 ```
 
 ## Features to explore
--Visit the frontend at loaclhost
--Visit the backend at localhost/admin
+-Visit the frontend at localhost (run this command: php artisan serve)
+-Visit the backend at localhost/admin 
 
 ### Relations
 

@@ -16,6 +16,7 @@ class grave extends Model implements HasMedia
         'grave_type_id',
         'section_id',
         'grave_number',
+        'grave_key',
         'image',
         'grave_status'
     ];
